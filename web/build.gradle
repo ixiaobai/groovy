@@ -1,0 +1,9 @@
+apply plugin: 'war'//官网
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    compile project(":repository")
+}
